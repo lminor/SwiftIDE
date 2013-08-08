@@ -1,0 +1,259 @@
+/* --------- GLOBAL --------- */
+
+body {
+    background: #aeaeae;
+    background: -moz-linear-gradient(top, #aeaeae 0%, #a1a1a1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aeaeae), color-stop(100%,#a1a1a1));
+    background: -webkit-linear-gradient(top, #aeaeae 0%,#a1a1a1 100%);
+    font: 16px "Ubuntu", sans-serif;
+}
+
+a, .active {
+    color: #0088ff;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+input, textarea {
+    border: 1px solid #aeaeae;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    padding: 3px;
+    width: 298px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+}
+
+textarea {
+    height: 96px;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+    width: 120px;
+}
+
+#wrapper {
+    background: #eaeaea;
+    border-left: 2px solid #8f8f8f;
+    border-right: 2px solid #8f8f8f;
+    margin: 0 auto;
+    padding: 8px;
+    width: 964px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.button {
+    background: #0088ff;
+    border: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    margin: 15px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button-nav {
+    background: #0088ff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 36px;
+    line-height: 36px;
+    margin: 30px 10px 0;
+    width: 74px;
+}
+
+.button-nav a {
+    color: #ffffff;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.item {
+    margin: 0 0 8px;
+}
+
+.module {
+    margin: 8px 0 0;
+    overflow: hidden;
+}
+
+.pagination {
+    margin: 40px auto;
+    width: 660px;
+}
+
+.pagination li {
+    width: 60px;
+}
+
+.pagination a {
+    background: #f8f8f8;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #000000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 6px;
+    text-decoration: none;
+    width: 48px;
+}
+
+.pagination .active {
+    background: #0088ff;
+    color: #f8f8f8;
+}
+
+.span1 {
+    float: left;
+    margin: 0 7px;
+    width: 306px;
+}
+
+.span2 {
+    float: left;
+    width: 640px;
+}
+
+.span3 {
+	margin-left:auto;
+	margin-right:auto;
+	width: 306px;
+}
+.span4 {
+	width: 910px;
+}
+
+/* --------- HEADER --------- */
+
+header {
+    height: 96px;
+    line-height: 96px;
+    overflow: hidden;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    height: 96px;
+}
+
+/* --------- CONTENT --------- */
+
+#content {
+    border-top: 2px solid #aeaeae;
+}
+
+/* --------- FOOTER --------- */
+
+footer {
+    background: #323232;
+    background: -moz-linear-gradient(top, #323232 0%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#323232), color-stop(100%,#000000));
+    background: -webkit-linear-gradient(top, #323232 0%,#000000 100%);
+    color: #ffffff;
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 8px;
+    width: 968px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#copyright {
+    float: left;
+}
+
+footer nav {
+    float: right;
+}
+
+footer li {
+    width: 96px;
+}
+
+/* -------- Features -------- */
+
+p.featone {
+margin-left: 300px;
+margin-right: 30px;
+}
+p.feattwo
+{
+margin-left: 30px;
+margin-right: 300px;
+}
+p.featthree
+{
+margin-left: 300px;
+margin-right: 30px;
+}
+.featmodule{
+margin-top: 60px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 30px;
+}
+.featmodule1{
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 30px;
+margin-right: 50px;
+}
+.featmodule2{
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 30px;
+}
+
+/* -------- Support --------*/
+.supportmodule{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+}
